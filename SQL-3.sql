@@ -33,3 +33,18 @@ WHERE student_id = 3;
 
 SELECT * FROM Students1;
 
+INSERT INTO Students1 VALUES 
+(6,'Kiran','kiran@gmail.com','Software Testing','2026-03-05'), 
+(7,'Amit','amit@gmail.com','Automation Testing','2026-03-06'), 
+(8,'Pooja','pooja@gmail.com','Manual Testing','2026-03-07'); 
+
+SELECT * FROM Students1;
+
+SELECT * FROM Students  
+WHERE course='Automation Testing'; 
+
+INSERT INTO Students1 (student_id, student_name, course, admission_date) 
+VALUES (9,'Rohit','Software Testing','2026-03-08'); 
+
+SELECT * FROM Students1 
+WHERE email IS NULL; 
