@@ -1,0 +1,8 @@
+CREATE DATABASE course;
+
+CREATE TABLE course(
+course INT PRIMARY KEY,
+course_name VARCHAR(50) NOT NULL,
+duration INT PRIMARY KEY, 
+fees INT PRIMARY KEY 
+);
